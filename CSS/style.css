@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto Slab', serif;
+    color: #000000;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     '. t .'
     '. b .'
     '. . .';
+    background-color: #FFFAF0;
 }
 
 .top {
@@ -30,18 +32,24 @@ form {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     font-family: 'Antonio', sans-serif;
+    color: #006400;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 2rem;
+    color: #006400;
 }
 
 .label {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 1rem;
+}
+
+textarea {
+    font-size: 1.5rem;
 }
 
 button {
@@ -50,4 +58,6 @@ button {
     height: 5%;
     align-self: center;
     margin: 1rem;
+    border-radius: 12px;
+    background-color: #2E8B57;
 }
