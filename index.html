@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Send me stuff</title>
+</head>
+<body>
+    <div class="top">
+        <h1>Send Me A Message!<h1>
+        <p>Hi there, feel free to leave me a message (Name and Message is required, Email is optional)
+        </p>
+    </div>
+    <div class="bottom">
+        <form action="https://formspree.io/f/xzbyzpwk" method="post" id="form">
+            <label for="name" class="label">Your Name</label>
+            <input name ="Name" id="name" type="text" required>
+            <label for="email" class="label">Your Email</label>
+            <input name="Email" id="email" type="email">
+            <label for="message" class="label">Your Message</label>
+            <textarea rows="5" id="message" name="Message" form="form" required></textarea>
+            <button type="submit">Submit</button>
+      </form>
+    </div>
+</body>
+</html>

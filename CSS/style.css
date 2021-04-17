@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    '. t .'
+    '. b .'
+    '. . .';
+}
+
+.top {
+    grid-area: t;
+    margin: 5%;
+}
+
+.bottom {
+    grid-area: b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Antonio', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.label {
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+button {
+    font-size: 2rem;
+    width: 20%;
+    height: 5%;
+    align-self: center;
+    margin: 1rem;
+}
